@@ -24,4 +24,25 @@ conda create -n my-game-env python=3.8 # (first time only)
 conda activate my-game-env
 From within the virtual environment, demonstrate your ability to run the Python script from the command-line:
 
+more updates
+
+## RPS Stuff Below
+
+```
 python game.py
+```
+
+here's a shell command/terminal command:
+
+```sh
+python game.py
+```
+
+
+
+this is some python code example:
+
+```py
+
+print("Hello")
+```
