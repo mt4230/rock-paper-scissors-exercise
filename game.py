@@ -1,5 +1,5 @@
 
-
+import random
 
 print("WELCOME TO ROCK PAPER SCISSORS GAME")
 
@@ -9,10 +9,9 @@ print("WELCOME TO ROCK PAPER SCISSORS GAME")
 
 user_choice = input ("Please make a selection ('rock', 'paper', 'scissors'):")
 
+
 # You chose: 'rock'
 print (f"You chose:'{user_choice}'")
-
-
 
 
 # VALIDATE USER INPUTS
@@ -20,6 +19,11 @@ print (f"You chose:'{user_choice}'")
 
 # COMPUTER CHOICE
 
+
+
+valid_options = ["rock","paper","scissors"]
+computer_choice = random.choice(valid_options)
+print (f"Computer chose:'{computer_choice}'")
 
 # DETERMINE THE WINNER
 
